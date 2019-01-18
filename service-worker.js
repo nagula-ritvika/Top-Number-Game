@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Top-Number-Game/precache-manifest.c1fcbb41dbff62189b4d0a9b2d7c92fd.js"
+  "/Top-Number-Game/precache-manifest.9a012e16f8e92c81912466f8762e95ee.js"
 );
 
 workbox.clientsClaim();
