@@ -24,6 +24,8 @@ export class TopNumber extends React.Component {
       this.setState({
         highest: nextProps.number
       });
+    } else if (!nextProps.game) {
+      this.setState({ highest: 0 });
     }
   }
 
@@ -32,7 +34,7 @@ export class TopNumber extends React.Component {
   }
 }
 
-TopNumber.propTypes = {
-  //   number: React.PropTypes.number,
-  //   game: React.PropTypes.bool
-};
+// TopNumber.propTypes = {
+//   number: React.PropTypes.number,
+//   game: React.PropTypes.bool
+// };

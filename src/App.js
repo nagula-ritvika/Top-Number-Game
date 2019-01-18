@@ -57,9 +57,7 @@ class App extends Component {
 
   startGame = () => {
     this.createTarget("first", 750);
-    this.setState({
-      game: true
-    });
+    this.setState({ game: true });
   };
 
   endGame = () => {
